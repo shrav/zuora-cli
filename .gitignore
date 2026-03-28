@@ -1,0 +1,26 @@
+# Build artifacts
+/target/
+**/*.rs.bk
+
+# Credentials & secrets (NEVER commit these)
+.zuora/
+*.env
+.env
+.env.*
+config.toml
+tokens.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Coverage
+lcov.info
+tarpaulin-report.html
